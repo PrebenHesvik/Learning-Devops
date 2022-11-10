@@ -158,6 +158,15 @@
 <br>
 
 
+- `less [filename]` ==> inspect a file backward (pager)
+  - [up-arrow] ==> scrolls up the display one line
+  - [down-arrow] ==> scrolls down the display one line
+  - [/] ==> search text
+
+
+<br>
+
+
 - `locate` ==> find a file in a database system
   - `-i` ==> adding the -i argument will turn off case sensitivity
   - `locate -i school*note` ==> searc h for files that contain words school and note
@@ -191,6 +200,16 @@
     - `mkdir -p /tmp/asia/india/bangalore`
   - `mkdir -m777 new_folder` ==> creates directory with full read write, execute permissions
   - `mkdir -v [folder/sub_folder]` ==> prints a message for each created directory
+
+<br>
+
+
+- `more [filename]` ==> inspect a file forward (pagers)
+  - [space] ==> scroll the display, one screenful of data at a time
+  - [enter] ==> scrolls the display one line
+  - [b] ==> scrolls the display backwards one screenful of data
+  - [/] ==> search text
+
 
 <br>
 
@@ -264,15 +283,8 @@
 
 - `tail -n 5` ==> print the last 5 lines of a file
 - `head -n 5` ==> print the first 5 lines of a file
-- `less` ==> inspect a file backward
-  - [up-arrow] ==> scrolls up the display one line
-  - [down-arrow] ==> scrolls down the display one line
-  - [/] ==> search text
-- `more` ==> inspect a file forward
-  - [space] ==> scroll the display, one screenful of data at a time
-  - [enter] ==> scrolls the display one line
-  - [b] ==> scrolls the display backwards one screenful of data
-  - [/] ==> search text
+
+
 
 
 <br>
@@ -302,6 +314,21 @@
 
 
 <br>
+
+
+- `user commands:`
+  - `useradd [new_user]` ==> adds new user
+
+  - `userdel [username]` ==> removes user
+
+  - `usermod` ==> modify existing users
+    - `usermod JournalDev -a -G sudo, audio, mysql`
+
+  - `passwd` ==> change password for your account
+
+
+<br>
+
 
 
 - `zip [options] [zipfile.zip] file.txt` ==> zip a file
@@ -344,15 +371,7 @@
 - `history` ==> displays an enumerated list with the commands you've used in the past
 
 
-- `user commands:`
-  - `useradd [new_user]` ==> adds new user
 
-  - `userdel [username]` ==> removes user
-
-  - `usermod` ==> modify existing users
-    - `usermod JournalDev -a -G sudo, audio, mysql`
-
-  - `passwd` ==> change password for your account
 
 
 - `whatis` ==> prints a single-line description of any command
@@ -432,3 +451,8 @@
 - `cat proc/sys/net/ipv4/ip_forward` ==> check if ip forwarding is enabled on a host
 - ufw - Firewall command
 - iptables - Base firewall for all other firewall utilities to interface with
+
+
+
+#### Tips/links
+- https://www.makeuseof.com/most-linux-pager/
