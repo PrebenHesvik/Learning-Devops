@@ -1,0 +1,6 @@
+# ignore markdown files
+*.md
+
+# ignore .git and .cache folders
+.git
+.cache
