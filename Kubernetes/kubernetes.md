@@ -14,15 +14,20 @@
 
 #### Key concepts
 - `pod`
-    - Smallest unit in the Kubernetes world.
-    ![img](../../Learning-Devops/images/kubernetes/pod.PNG)
+    - Smallest logical unit that you can deploy int o a kubernetes cluster.
+    - consists of:
+        - one or mroe containers (one most of the time).
+        - shared volumes
+        - shared IP address
 
-
-- `kublet`
 - `worker node`
      - each node has its own public addressable ip address
-- `cubectl`
+     - `kublet`
+
+- `cubectl` ==> CLI tool
+
 - `service registry`
+
 - `service`
     - a grouping of several pods
     - A `service.yaml` file will define each service.
@@ -32,13 +37,23 @@
     - `load balancer` ==> a cloud provider will spin up a NLB (work load balancer) for every service you expose, and the NLB will route directly to the service associated.
     - `external ip`
     - `ingress`
-    - `istio`
+    - `istio` ==> provides traffic management, policy enforcement and telemetry collection.
+    - `operator framework`
+    - `knative` ==>
+        - build
+        - serve => snapshots, intellignet routing, scaling
+        - event ==> triggers, pipelines
+
 - `kube dns`
 
 - `helm` ==> a package manager for kubernetes
     - `tiller` ==> server side component of helm
 
 #### YouTube videos
+- John Saville: https://www.youtube.com/c/NTFAQGuy
+- Microservices: https://www.youtube.com/watch?v=CZ3wIuvmHeM
+- Cloud networking: https://www.youtube.com/watch?v=sCR3SAVdyCc&list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ
+- cloud fundamentals: https://www.youtube.com/watch?v=20QUNgFIrK0&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ
 - https://www.youtube.com/watch?v=0qotVMX-J5s&list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN
 - https://www.youtube.com/watch?v=2vMEQ5zs1ko
 - https://www.youtube.com/playlist?list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN
