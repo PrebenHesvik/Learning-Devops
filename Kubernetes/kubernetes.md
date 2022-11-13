@@ -13,18 +13,32 @@
 
 
 #### Key concepts
+- look at https://www.youtube.com/watch?v=c4nTKMU6fBU  minute 10 when making the drawio inforgraph
+- `master node`
+  - Kubernetes API Server
+    - `cubectl` ==> CLI tool that we use to talk to the master node. 
+    - Talks to the worker nodes
+  - `Scheduler` 
+    - decides where things need to go
+    - decides which worker-node gets assigned a pod
+  - `Controller Manager`
+  - `etcd`
+    - key-value store database
+    - stores the state of the system  
+  
+
 - `pod`
     - Smallest logical unit that you can deploy int o a kubernetes cluster.
     - consists of:
-        - one or mroe containers (one most of the time).
+        - one or more containers (one most of the time).
         - shared volumes
         - shared IP address
 
 - `worker node`
      - each node has its own public addressable ip address
-     - `kublet`
+     - each worker node has a `kubelet` that talks to the API server
 
-- `cubectl` ==> CLI tool
+
 
 - `service registry`
 

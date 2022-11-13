@@ -1,13 +1,38 @@
 <sub></sub>   
 <sub><span style="color:orange"></span></sub>
 
+#### What is a Docker image?
+- A way to `package` an application with all the necessary `dependencies` and `configurations`.
+- A `portable artifact`, easily shared and moved around.
+- Containers live in container repositories. 
+  - `DockerHub` is a public repository for Docker images. 
+  - There are also private repositories. 
+- Technically, an image consists of `layers of images`
+  - Mostly ``Linux Base Image`, because small in size, and an `application image` on top. 
+
+
+##### What is a Docker container?
+- A Docker container is an instance of a Docker image. 
+- A container has:
+  - virtual file system
+  - environment configs
+  - application image
+  - port
+
+
+##### What is the difference between Docker and a VM?
+- Operating systems have 2 layers, the OS kernel layer and the application layer. Docker only virtualizes the application layer, while a VM virtualizes both the OS kernel layer and the application layer. 
+- Docker images are much smaller
+- Docker containers start and run much faster.  
+- VM of any OS can run on any OS host, but that is not possible with Docker. 
+
 ##### Login to docker hub
 - `docker login -u [username] -p [password]` ==> login to dockerhub
 - `docker login -u [username]` ==> then supply access token
 - `docker login` ==> login to dockerhub
   - Will be prompted username and password
 
-#### Check if docker is running
+##### Check if docker is running
 - `systemctl status docker` ==> check if docker is running
 
 ##### Get list of docker containers
@@ -22,9 +47,6 @@
 - `docker image history [image id]` 
   - <sub><span style="color:orange">We only need to include enough of the **image id** to make it unique so docker will find the correct one</span></sub>
 
-##### Inspect container
-- `docker inspect [container id]` | `docker inspect [container name]`
-  - returns container data in json format
 
 ##### build image 
 - `docker build -t [image-name]:[tag] .`  (remember the `.` at the end)
@@ -62,6 +84,7 @@
 ##### run container
 `docker run --name [container name] -p [port on computer]:[port on container] [image-name]:[tag]`
   - `docker run --name first-container -p 8080:8080 fastapi-app:1.0.0` 
+      - `--name` ==> give the container a name
       - `-p` ==> port 
       - `-d` ==> detached mode ==> runs the container in the background
         - <sub>`docker attach [container id]` ==> shift the container to attached mode</sub>
@@ -122,6 +145,14 @@
 
 ##### Inspect container
 - `docker inspect [container name]` | `docker inspect [container id]`
+- returns container data in json format
+
+##### Inspect exec for debugging
+- `docker exec -it [container-id | container-name] /bin/bash` ==> go into the container
+
+
+#### Docker network
+- `docker network ls` ==> list of the networks
 
 #### Dockerfile
 - **CMD VS Entrypoint**

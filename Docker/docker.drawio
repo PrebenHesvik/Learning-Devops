@@ -1,0 +1,94 @@
+<mxfile host="65bd71144e">
+    <diagram id="AqjsPrtMuM5N9qTIHyTN" name="Page-1">
+        <mxGraphModel dx="1668" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Applications&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="85" width="162" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;OS Kernel&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="143" width="162" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Hardware&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="201" width="162" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Docker&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;rounded=1;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="88" y="39" width="86" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;gradientColor=none;glass=0;shadow=0;sketch=1;absoluteArcSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="32.5" y="79.5" width="197" height="58.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Applications&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="88" width="162" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;OS Kernel&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="282" y="148" width="162" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Hardware&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="282" y="208" width="162" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Virtual Machine&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;rounded=1;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="271.5" y="43" width="175" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;gradientColor=none;glass=0;shadow=0;sketch=1;absoluteArcSize=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="79.5" width="197" height="121.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#969696;" vertex="1" parent="1">
+                    <mxGeometry x="12" y="22" width="472" height="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;font&gt;Container&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#969696;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="26" y="515" width="142" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="90.5" y="420" as="sourcePoint"/>
+                        <mxPoint x="90.5" y="493" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Port 5000&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="26" y="366" width="132" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Port 5000" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;sketch=1;shadow=0;glass=0;" vertex="1" parent="1">
+                    <mxGeometry x="38" y="506" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;font&gt;Container&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#969696;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="198" y="515" width="142" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="262.5" y="420" as="sourcePoint"/>
+                        <mxPoint x="262.5" y="493" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Port 3000&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="198" y="366" width="132" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Port 3000" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="506" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;font&gt;Container&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#969696;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="515" width="142" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="424.5" y="420" as="sourcePoint"/>
+                        <mxPoint x="424.5" y="493" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Port 3001&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;sketch=1;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="366" width="132" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Port 3000" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="372" y="506" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font style=&quot;font-size: 14px&quot;&gt;We can run multiple containers, but a single port on the computer&lt;br&gt;can only map to one container.&amp;nbsp;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;shadow=0;glass=0;sketch=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="58" y="653" width="414" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=14;strokeColor=#969696;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-1" y="320.5" width="530" height="401" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
