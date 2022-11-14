@@ -35,6 +35,38 @@
 ##### Check if docker is running
 - `systemctl status docker` ==> check if docker is running
 
+
+#### Dockerfile
+- The name of the file must be `Dockerfile` (capital D)
+- A blueprint for creating a docker image. 
+- Commands:
+  - `CMD` ==> entrypoint command. Can only be one CMD command.
+  - `RUN` ==> run a command. can be multiple RUN commands.  
+- **CMD VS Entrypoint**
+  - CMD
+    ```dockerfile
+    CMD [command] [param]
+    CMD sleep 5
+    # or
+    CMD ["command", "param"]
+    CMD ["sleep", "5"]
+    ```
+  - Entrypoint
+    ```dockerfile
+    ENTRYPOINT ["sleep"]
+    ```
+    In command line: `docker run [docker-name] 10` ==> container will sleep for 10 sec
+    <br>
+    To use a default argument, write the dockerfile like this:
+    ```dockerfile
+    ENTRYPOINT ["sleep"]
+    CMD 5
+    ```
+    <br>
+    We can also override the entrypoint argument by writing:
+    `docker run --entrypoint sleep2.0 ubuntu-sleeper 15`
+
+
 ##### Get list of docker containers
 - `docker ps` will return a list of all running containers
 - `docker ps -a` ==> show list of all containers
@@ -107,7 +139,7 @@
           - Overlay
           - Overlay2
       - `-e` ==> set environment variable
-      - `--network` ==> select network to use
+      - `--network` | `--net` ==> select network to use
         - network types:
           - bridge
             - private internal network created by Docker on the host.
@@ -154,30 +186,7 @@
 #### Docker network
 - `docker network ls` ==> list of the networks
 
-#### Dockerfile
-- **CMD VS Entrypoint**
-  - CMD
-    ```dockerfile
-    CMD [command] [param]
-    CMD sleep 5
-    # or
-    CMD ["command", "param"]
-    CMD ["sleep", "5"]
-    ```
-  - Entrypoint
-    ```dockerfile
-    ENTRYPOINT ["sleep"]
-    ```
-    In command line: `docker run [docker-name] 10` ==> container will sleep for 10 sec
-    <br>
-    To use a default argument, write the dockerfile like this:
-    ```dockerfile
-    ENTRYPOINT ["sleep"]
-    CMD 5
-    ```
-    <br>
-    We can also override the entrypoint argument by writing:
-    `docker run --entrypoint sleep2.0 ubuntu-sleeper 15`
+
 
 
 ##### Docker compose
@@ -191,6 +200,9 @@
   - `docker-compose up --build` ==> rebuild image and spin up all of the services
   - `docker-compose down` ==> tear it all down
   - `docker-compose logs` ==> view all logs in a single stream
+- It is possible to call the docker-compose file something else,
+  for example `dev.yaml`. To run docker-compose we would write
+  `docker-compose -f dev.yaml up`.
 
 
 
