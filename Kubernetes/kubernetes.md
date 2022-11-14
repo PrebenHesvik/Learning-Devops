@@ -16,16 +16,16 @@
 - look at https://www.youtube.com/watch?v=c4nTKMU6fBU  minute 10 when making the drawio inforgraph
 - `master node`
   - Kubernetes API Server
-    - `cubectl` ==> CLI tool that we use to talk to the master node. 
+    - `cubectl` ==> CLI tool that we use to talk to the master node.
     - Talks to the worker nodes
-  - `Scheduler` 
+  - `Scheduler`
     - decides where things need to go
     - decides which worker-node gets assigned a pod
   - `Controller Manager`
   - `etcd`
     - key-value store database
-    - stores the state of the system  
-  
+    - stores the state of the system
+
 
 - `pod`
     - Smallest logical unit that you can deploy int o a kubernetes cluster.
@@ -62,6 +62,7 @@
 
 - `helm` ==> a package manager for kubernetes
     - `tiller` ==> server side component of helm
+- `flux`
 
 #### YouTube videos
 - John Saville: https://www.youtube.com/c/NTFAQGuy

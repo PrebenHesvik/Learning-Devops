@@ -1,5 +1,0 @@
-![img](images/pipeline1.PNG)
-![img](images/ci_cd_pipeline.PNG)
-![img](images/pipeline2.PNG)
-![img](images/docker_workflow.PNG)
-![img](images/infrastructure_as_code_tools.PNG)
