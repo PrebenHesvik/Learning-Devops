@@ -69,6 +69,14 @@
 - Microservices: https://www.youtube.com/watch?v=CZ3wIuvmHeM
 - Cloud networking: https://www.youtube.com/watch?v=sCR3SAVdyCc&list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ
 - cloud fundamentals: https://www.youtube.com/watch?v=20QUNgFIrK0&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ
+- Setting up kubernetes in Azure: https://www.youtube.com/watch?v=eyvLwK5C2dw
+- Service monitors: https://www.youtube.com/watch?v=_NtRkBipepg
+- Terraform with azure kubernetes: https://www.youtube.com/watch?v=bHjS4xqwc9A
+- crash course in kubernetes on azure: https://www.youtube.com/watch?v=Ess4VaQzdWw
+- a crash course in azure kubernetes services: https://www.youtube.com/watch?v=Ess4VaQzdWw
+- service mesh: what and why: https://www.youtube.com/watch?v=rVNPnHeGYBE
+- AKS cluster: https://www.youtube.com/watch?v=NnwQZyi0BAs
+- Understand Azure kubernetes service architecture: https://www.youtube.com/watch?v=Au7Xocb99dA&list=PLaYx14SsCrOtobvdbeExcV4ZVRWsLc51I
 - https://www.youtube.com/watch?v=0qotVMX-J5s&list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN
 - https://www.youtube.com/watch?v=2vMEQ5zs1ko
 - https://www.youtube.com/playlist?list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN
