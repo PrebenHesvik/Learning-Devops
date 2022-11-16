@@ -1,3 +1,5 @@
+video: 1.37
+
 ##### Three areas
 - Working area
 - Staging area
@@ -13,12 +15,12 @@
 - `git add main.py` ==> add file to the **staging area**
 - `git commit -m "added main.py"` ==> main.py is now **comitted**
 
-##### Branches
 A branch is a pointer to a certain commit
+##### Branches
 - `git branch sarah` ==> create new branch called sarah
 - `git checkout sarah` ==> switch to existing branch named sarah
 - `git checkout -b sarah` ==> create and switch to a new branch "sarah"
-- `git branch` ==> get list of branches 
+- `git branch` ==> get list of branches
 - `git branch -d sarah` ==> delete the branch named sarah
 
 ##### Merge branches
@@ -31,6 +33,7 @@ A branch is a pointer to a certain commit
 - `git merge feature/signup`
 
 ##### Remote
+- `git remoe show origim`
 - `git remote -v` ==> list all remote repositories
 - `git remote add origin <connection-string>` ==> add remote connection string
 - `git push origin <branch_name>`
@@ -68,23 +71,54 @@ A branch is a pointer to a certain commit
 ![img](../images/git_revert.PNG)
 
 #### Reset
+- `git reset` ==> remove all staged content
+- `git reset --hard` ==> removes the staged content and actually reverts the file(s) itself back to the previous commit.
 - `git reset --soft HEAD~1` ==> removes the last commit
   - by using the soft reset we still have access to the changes made
   - this can be seen by writing `git status`
-- `git reset --hard HEAD~1` ==> removes the last commit 
-  - by using hard reset we also lose the changes we have made 
+- `git reset --hard HEAD~1` ==> removes the last commit
+  - by using hard reset we also lose the changes we have made
+- `git reset --hard <hash>` ==> revert a certain change
+- `git reset [first x chars of commit] --soft`
+
+##### Restore
+- `git restore --staged [file]` ==> restore version in staged (from last commit HEAD) but NOT from working.
+- `git restore [file]` ==> restore working directory from staged
 
 ##### Stashing
 - `git stash` ==> stash something
 - `git stash pop` ==> retrieve from stash back into the staging area
 - `git stash list` ==> list of all stashes
 
+
+##### Tags
+- git tag [tag] [commit]
+  - if `commit hash` is not specified, the tag will be applied to the last commit.
+- git tag [tag] HEAD~2 ==> give tag to commit two versions back.
+- `git tag -a [tag] [commit] -m "some message"`
+- `git show [tag]`
+- `git push --tag`
 #### Reflog
 - `git reflog` ==> list of all changes
-- `git reset --hard <hash>` ==> revert a certain change
 
+##### rm
+- `git rm [file]` ==> stage the removal of a committed file (which will also delete from working). Will have to be comitted for the change to take place.
+- `git rm --cached [file]` ==>
 
-##### Other commands
+##### Log
 - `git log` ==> show a log of commits
 - `git log --oneline` ==> git log "barebones"
 - `git log --graph --decorate`
+- `git log --oneline --graph --decorate --all`
+
+
+##### Diff
+- `git diff --cached` ==> difference between what is staged and what is currently commited
+- `git diff [commit_old]..[commit_new]`
+- `git diff HEAD` ==> sum of `git diff` and `git diff --cached`
+##### Config
+- `git config --global init.defaultBranch main` ==> set default branch to name "main"
+
+#### cat-file
+- `git cat-file -t [hash]` ==> see type of hash
+- `git cat-file -p [hash]` ==> see content of hash
