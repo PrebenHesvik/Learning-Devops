@@ -185,7 +185,7 @@
 
 #### Docker network
 - `docker network ls` ==> list of the networks
-
+- `github.com/nicolaka/netshoot` ==> docker image for network trouble for docker/kubernetes
 
 
 
@@ -228,3 +228,7 @@
 
 #### Dockerfile examples
 ![img](../images/dockerfile1.PNG)
+
+
+##### Cheat sheet
+- https://github.com/ChristianLempa/cheat-sheets/blob/main/docker/docker.md

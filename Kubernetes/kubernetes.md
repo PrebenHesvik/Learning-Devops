@@ -75,7 +75,10 @@
 - crash course in kubernetes on azure: https://www.youtube.com/watch?v=Ess4VaQzdWw
 - a crash course in azure kubernetes services: https://www.youtube.com/watch?v=Ess4VaQzdWw
 - service mesh: what and why: https://www.youtube.com/watch?v=rVNPnHeGYBE
+- 10 kubernetes tools: https://www.youtube.com/watch?v=CB79eTFbR0w
 - AKS cluster: https://www.youtube.com/watch?v=NnwQZyi0BAs
+- videos about devops: https://www.youtube.com/c/DevOpsToolkit/videos
+- azure docker containers: https://www.youtube.com/watch?v=iV7WrsxExdY
 - Understand Azure kubernetes service architecture: https://www.youtube.com/watch?v=Au7Xocb99dA&list=PLaYx14SsCrOtobvdbeExcV4ZVRWsLc51I
 - https://www.youtube.com/watch?v=0qotVMX-J5s&list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN
 - https://www.youtube.com/watch?v=2vMEQ5zs1ko
