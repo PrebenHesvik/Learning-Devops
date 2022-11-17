@@ -15,13 +15,35 @@ video: 1.37
 - `git add main.py` ==> add file to the **staging area**
 - `git commit -m "added main.py"` ==> main.py is now **comitted**
 
-A branch is a pointer to a certain commit
+
+##### Commit
+- `git commit -m [msg]` ==> commit
+- `git commit --amend` ==> change message of last commit
+- `git commit --ament --no-edit` ==> add new files to staging but don't update the message
+
+
+##### Fetch + Pull
+- `git fetch origin main` ==> download latest update of master branch
+- `git merge origin/main` ==> update the master branch on our local repo
+- `git pull origin main` ==> combines the two commands above
+
+##### Push
+- `git push -u [remote-repo] [branch-name]`
+- `git push origin --delete [branch]` ==> delete branch on a remote
+
 ##### Branches
+- A branch is a pointer to a certain commit
 - `git branch sarah` ==> create new branch called sarah
 - `git checkout sarah` ==> switch to existing branch named sarah
 - `git checkout -b sarah` ==> create and switch to a new branch "sarah"
 - `git branch` ==> get list of branches
 - `git branch -d sarah` ==> delete the branch named sarah
+- `git branch --list` ==> view all branches
+- `git branch -r` ==> view remote branches
+- `git branch -a` ==> view all branches
+- `git switch [branch-name]` ==> switch to branch
+- `git checkout -c [branch-name]` =>> create and checkout a branch
+- `git branch --merged` ==> see which branches have been merged
 
 ##### Merge branches
 - Two types of merges
@@ -31,6 +53,20 @@ A branch is a pointer to a certain commit
 
 - `git checkout master`
 - `git merge feature/signup`
+- `git merge --no-ff [branch-to-merge]` ==> no fast forward merge. The merge is created as a commit.
+- three-way merge
+
+##### Rebasing
+- `git rebase master` ==> move our branch on top of the updated master branch
+  - When we do this we modify the history of our git commits
+- Interactive rebasing
+  - Used when several commits should ideally just have been one commit
+    - fix typo 1
+    - fix typo 2
+    - fix typo 3
+      - ==> one commit for fixing all typos
+  - `git rebase -i HEAD~4` ==> replace last four commits with one commit
+![img](../images/interactive_rebasing.PNG)
 
 ##### Remote
 - `git remoe show origim`
@@ -45,24 +81,9 @@ A branch is a pointer to a certain commit
 ##### Pull requests
 - We do this at the GitHub website
 
-##### Fetch
-- `git fetch origin master` ==> download latest update of master branch
-- `git merge origin/master` ==> update the master branch on our local repo
-- `git pull origin master` ==> combines the two commands above
-
-##### Rebasing
-- `git rebase master` ==> move our branch on top of the updated master branch
-  - When we do this we modify the history of our git commits
 
 
-##### Interactive rebasing
-  - Used when several commits should ideally just have been one commit
-    - fix typo 1
-    - fix typo 2
-    - fix typo 3
-      - ==> one commit for fixing all typos
-  - `git rebase -i HEAD~4` ==> replace last four commits with one commit
-![img](../images/interactive_rebasing.PNG)
+
 
 ##### Cherry picking
 - `git cherry-pick <hash>` ==> copy a specific commit of a branch into the master branch
@@ -116,6 +137,7 @@ A branch is a pointer to a certain commit
 - `git diff --cached` ==> difference between what is staged and what is currently commited
 - `git diff [commit_old]..[commit_new]`
 - `git diff HEAD` ==> sum of `git diff` and `git diff --cached`
+- `git diff [branch] [other branch]`
 ##### Config
 - `git config --global init.defaultBranch main` ==> set default branch to name "main"
 
