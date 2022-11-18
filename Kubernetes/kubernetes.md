@@ -64,7 +64,12 @@
     - `tiller` ==> server side component of helm
 - `flux`
 
+
+##### Links
+- Azure DevOps generator: https://azuredevopsdemogenerator.azurewebsites.net/
+
 #### YouTube videos
+- Kubernetes: The documentar: https://www.youtube.com/watch?v=BE77h7dmoQU
 - John Saville: https://www.youtube.com/c/NTFAQGuy
 - Microservices: https://www.youtube.com/watch?v=CZ3wIuvmHeM
 - Cloud networking: https://www.youtube.com/watch?v=sCR3SAVdyCc&list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ
