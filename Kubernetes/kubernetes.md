@@ -72,14 +72,19 @@
 - Kubernetes: The documentar: https://www.youtube.com/watch?v=BE77h7dmoQU
 - John Saville: https://www.youtube.com/c/NTFAQGuy
 - Microservices: https://www.youtube.com/watch?v=CZ3wIuvmHeM
+- Docker and kubernetes: https://www.youtube.com/watch?v=kTp5xUtcalw
 - Cloud networking: https://www.youtube.com/watch?v=sCR3SAVdyCc&list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ
 - cloud fundamentals: https://www.youtube.com/watch?v=20QUNgFIrK0&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ
 - Setting up kubernetes in Azure: https://www.youtube.com/watch?v=eyvLwK5C2dw
 - Service monitors: https://www.youtube.com/watch?v=_NtRkBipepg
+- Kubernetes operators: https://www.youtube.com/watch?v=ha3LjlD6g7g&list=PLy7NrYWoggjw0OMxUDIImjWQjM7qZWn_R
+- kubernetes services: https://www.youtube.com/watch?v=T4Z7visMM4E
+- kubernetes in one hour: https://www.youtube.com/watch?v=s_o8dwzRlu4
 - Terraform with azure kubernetes: https://www.youtube.com/watch?v=bHjS4xqwc9A
 - crash course in kubernetes on azure: https://www.youtube.com/watch?v=Ess4VaQzdWw
 - a crash course in azure kubernetes services: https://www.youtube.com/watch?v=Ess4VaQzdWw
 - service mesh: what and why: https://www.youtube.com/watch?v=rVNPnHeGYBE
+- upgrading and maintaining azure kubernetes aks cluster: https://www.youtube.com/watch?v=soLCemusoE8
 - 10 kubernetes tools: https://www.youtube.com/watch?v=CB79eTFbR0w
 - AKS cluster: https://www.youtube.com/watch?v=NnwQZyi0BAs
 - videos about devops: https://www.youtube.com/c/DevOpsToolkit/videos

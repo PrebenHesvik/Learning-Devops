@@ -1,4 +1,4 @@
-video: 1.37
+page with lots of commands: https://github.com/joshnh/Git-Commands
 
 ##### Three areas
 - Working area
