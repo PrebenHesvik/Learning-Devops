@@ -18,7 +18,7 @@ video: 1.37
 
 ##### Commit
 - `git commit -m [msg]` ==> commit
-- `git commit --amend` ==> change message of last commit
+- `git commit --amend -m [msg]` ==> change message of last commit
 - `git commit --ament --no-edit` ==> add new files to staging but don't update the message
 
 
@@ -57,7 +57,7 @@ video: 1.37
 - three-way merge
 
 ##### Rebasing
-- `git rebase master` ==> move our branch on top of the updated master branch
+- `git rebase main` ==> move our branch on top of the updated master branch
   - When we do this we modify the history of our git commits
 - Interactive rebasing
   - Used when several commits should ideally just have been one commit
