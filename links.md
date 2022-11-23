@@ -1,4 +1,5 @@
 - graphql
+- graphql course (good): https://www.youtube.com/playlist?list=PLpPqplz6dKxXICtNgHY1tiCPau_AwWAJU
 - https://www.youtube.com/watch?v=16bHGKe1QqY&list=RDCMUC8S4rDRZn6Z_StJ-hh7ph8g&index=3
 - https://www.youtube.com/watch?v=cjl3ToMTrs0
 - https://www.youtube.com/watch?v=uPxo9NQLVMI
