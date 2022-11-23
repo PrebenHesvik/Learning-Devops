@@ -1,0 +1,7 @@
+- graphql
+- https://www.youtube.com/watch?v=16bHGKe1QqY&list=RDCMUC8S4rDRZn6Z_StJ-hh7ph8g&index=3
+- https://www.youtube.com/watch?v=cjl3ToMTrs0
+- https://www.youtube.com/watch?v=uPxo9NQLVMI
+- https://www.youtube.com/watch?v=BcLNfwF04Kw
+- express: https://www.youtube.com/watch?v=SBvmnHTQIPY
+- express (best): https://www.youtube.com/watch?v=Oe421EPjeBE

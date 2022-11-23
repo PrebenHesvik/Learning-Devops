@@ -21,3 +21,5 @@
 video: 1.52
 - Adam Marczak - Azure for Everyone
 Azure4Everyone: https://www.youtube.com/c/Azure4Everyone/playlists
+
+
