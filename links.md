@@ -5,3 +5,4 @@
 - https://www.youtube.com/watch?v=BcLNfwF04Kw
 - express: https://www.youtube.com/watch?v=SBvmnHTQIPY
 - express (best): https://www.youtube.com/watch?v=Oe421EPjeBE
+- jsdoc: https://www.youtube.com/watch?v=Nqv6UkTROak
